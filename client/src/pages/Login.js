@@ -22,7 +22,7 @@ const Login = () => {
       navigate("/");
     } catch (error) {
       setLoading(false);
-      message.error("something went wrong");
+      message.error("User Not Found!");
     }
   };
 
