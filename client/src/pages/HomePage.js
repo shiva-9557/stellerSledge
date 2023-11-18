@@ -228,6 +228,9 @@ const HomePage = () => {
           <Form.Item label="Refrence" name="refrence">
             <Input type="text" required />
           </Form.Item>
+          <Form.Item label="Description" name="description">
+            <Input type="text" required />
+          </Form.Item>
        
           <div className="d-flex justify-content-end">
             <button type="submit" className="btn btn-primary">
